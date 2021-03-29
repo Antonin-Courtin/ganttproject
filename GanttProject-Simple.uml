@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>net.sourceforge.ganttproject.GanttProject</OriginalElement>
+  <nodes>
+    <node x="85.50000000000001" y="320.0">net.sourceforge.ganttproject.GanttProject</node>
+    <node x="53.5" y="240.0">net.sourceforge.ganttproject.resource.HumanResourceManager</node>
+    <node x="28.791666666666686" y="0.0">net.sourceforge.ganttproject.task.Task</node>
+    <node x="176.0" y="0.0">net.sourceforge.ganttproject.roles.Role</node>
+    <node x="63.2013888888889" y="160.0">net.sourceforge.ganttproject.resource.HumanResource</node>
+    <node x="0.0" y="80.0">net.sourceforge.ganttproject.task.ResourceAssignment</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="net.sourceforge.ganttproject.task.ResourceAssignment" target="net.sourceforge.ganttproject.task.Task">
+      <point x="-64.0" y="-15.0" />
+      <point x="32.0" y="55.0" />
+      <point x="48.791666666666686" y="55.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="net.sourceforge.ganttproject.resource.HumanResource" target="net.sourceforge.ganttproject.resource.HumanResourceManager">
+      <point x="63.333333333333314" y="15.0" />
+      <point x="202.53472222222223" y="215.0" />
+      <point x="196.5" y="215.0" />
+      <point x="39.0" y="-15.0" />
+    </edge>
+    <edge source="net.sourceforge.ganttproject.resource.HumanResource" target="net.sourceforge.ganttproject.task.ResourceAssignment">
+      <point x="-63.333333333333314" y="-15.0" />
+      <point x="75.86805555555559" y="140.0" />
+      <point x="24.0" y="140.0" />
+      <point x="-72.0" y="15.0" />
+    </edge>
+    <edge source="net.sourceforge.ganttproject.task.Task" target="net.sourceforge.ganttproject.task.ResourceAssignment">
+      <point x="20.0" y="15.0" />
+      <point x="88.79166666666669" y="55.0" />
+      <point x="96.0" y="55.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="net.sourceforge.ganttproject.GanttProject" target="net.sourceforge.ganttproject.resource.HumanResourceManager">
+      <point x="-48.0" y="-15.0" />
+      <point x="109.50000000000001" y="295.0" />
+      <point x="88.16666666666667" y="295.0" />
+      <point x="-69.33333333333333" y="15.0" />
+    </edge>
+    <edge source="net.sourceforge.ganttproject.resource.HumanResource" target="net.sourceforge.ganttproject.roles.Role">
+      <point x="63.333333333333314" y="-15.0" />
+      <point x="202.53472222222223" y="140.0" />
+      <point x="217.36805555555557" y="140.0" />
+      <point x="217.36805555555557" y="55.0" />
+      <point x="216.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="net.sourceforge.ganttproject.resource.HumanResourceManager" target="net.sourceforge.ganttproject.roles.Role">
+      <point x="91.0" y="-15.0" />
+      <point x="248.5" y="215.0" />
+      <point x="243.04166666666669" y="215.0" />
+      <point x="243.04166666666669" y="55.0" />
+      <point x="248.0" y="55.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="net.sourceforge.ganttproject.resource.HumanResourceManager" target="net.sourceforge.ganttproject.resource.HumanResource">
+      <point x="-13.0" y="-15.0" />
+      <point x="144.5" y="215.0" />
+      <point x="151.86805555555554" y="215.0" />
+      <point x="12.666666666666657" y="15.0" />
+    </edge>
+    <edge source="net.sourceforge.ganttproject.task.ResourceAssignment" target="net.sourceforge.ganttproject.resource.HumanResource">
+      <point x="72.0" y="15.0" />
+      <point x="168.0" y="140.0" />
+      <point x="151.8680555555556" y="140.0" />
+      <point x="12.666666666666686" y="-15.0" />
+    </edge>
+    <edge source="net.sourceforge.ganttproject.task.ResourceAssignment" target="net.sourceforge.ganttproject.roles.Role">
+      <point x="64.0" y="-15.0" />
+      <point x="160.0" y="55.0" />
+      <point x="184.0" y="55.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8096774193548387" x="857.5099601593625" y="474.0239043824701" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
